@@ -1,0 +1,196 @@
+<!DOCTYPE PUBLIC"-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <link href="pageicon.png" type="image/png" rel="icon"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>Network Portal</title>
+    <script type="text/javascript">
+        function FocusOnInput() {
+            document.getElementById("username").focus();
+        }
+    </script>
+
+    <style>
+            #username,
+        #Password {
+            margin-right: 80px;
+        }
+        
+        .colum {
+            float: left;
+            width: 140px;
+            margin: 5px;
+        }
+        
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 8;
+            width: 100%;
+            flex-direction: fixed
+        }
+        
+        body {
+            background-image: url("b1.jpeg");
+            /**background-repeat: no-repeat;**/
+        }
+        
+        .FORM {
+            margin: auto;
+            width: 75%;
+            background-color: rgba(0, 0, 0, 0.8);
+            font-weight: bold;
+            height: 400px;
+        }
+        
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+        
+        .mySlides {
+            margin-left: 0px;
+        }
+        
+        label {
+            margin-top: 15px;
+            margin-left: 20px;
+            text-align: left;
+            color: burlywood;
+        }
+        
+        input,
+        select {
+            margin-top: 15px;
+            margin-left: 40px;
+            width: 250px;
+            border-color: rgb(170, 223, 220);
+        }
+        
+        input[type=text] {
+            background-color: rgba(0, 0, 0, 0.103);
+            border: none;
+            border-bottom: 2px solid white;
+            color: white;
+            font-size: 12px;
+        }
+        
+        input[type=password] {
+            background-color: rgba(0, 0, 0, 0.103);
+            border: none;
+            border-bottom: 2px solid white;
+    </style>
+
+    <title>Hages Business Solutions - Network Portal</title>
+</head>
+
+<body onload="FocusOnInput()">
+
+
+    <div class="wrapper" style="margin-left:0px; margin-top:0px; position:bottom;height:600px;top:0px;">
+        <br>
+
+        <div class="FORM" style=" text-align:Center;color: #E46917; font-family: Arial; font-style: normal;  width:500px; margin-top:40px;margin-bottom:12px">
+
+            <h1 style="background-color:teal;opacity: 0.9;margin-top:0px;height:70px">Login</h1>
+
+
+
+            <form"autocomplete="off" method="post" action="/capture/handler.py/authpost"style="margin-top:30px">
+<table>
+<tr>
+<td><label>Username</label></td>
+<td><input name="username" id="username" style="width: 300px;height:30px" type="text"placeholder="Username"/></td>
+</tr>
+<tr>
+<td><label style="margin-top:20px">Password</label></td>
+<td><input name="password" id="password" style="width: 300px;height:30px" type="password" autocomplete="off"Placeholder="Password"></td>
+</tr>
+
+<input name="method" id="method" type="hidden" value="$.method.$"></input>
+<input name="nonce" id="nonce" type="hidden" value="$.nonce.$"></input>
+<input name="appid" id="appid" type="hidden" value="$.appid.$"></input>
+<input name="host" id="host" type="hidden" value="$.host.$"></input>
+<input name="uri" id="uri" type="hidden" value="$.uri.$"></input>
+</table>
+<input name="submit" id="submit" type="submit" value="Login"  style="width:150px; height: 30px; color:white;margin-top:30px; font-weight:bold;background-color:rgb(21, 177, 197);"></input>
+</form>
+
+<form METHOD="link" ACTION="http://192.168.77.96/capture/logout/"> 
+<input type="Submit" Value="Logout" style="width:150px; height: 30px; color:red; font-weight:bold;background-color:navajowhite"> </form>
+
+</div>
+
+
+
+
+
+
+<footer style="background-color:thistle;width:100%;height:150px;vertical-align: text-bottom;vertical-align: text-bottom;clear:both;display: flex;flex-direction: row">
+
+    <div class="w3-content w3-section" style="width:100px;;margin-left:0px;flex: 1;">
+        <img class="mySlides" src="/src/img/hages.jpg" style="width:100%;height:150px" >
+        <img class="mySlides" src="/src/img/SPEC.png" style="width:100%;height:150px">
+        <img class="mySlides" src="/src/img/coralite.png" style="width:100%;height:150px">
+        <img class="mySlides" src="/src/img/ISO.png" style="width:100%;height:150px">
+      </div>
+      
+
+    <div style="color:black;font-weight:bold;font-size:15px;letter-spacing:2px;flex: 1">
+        <center>Hages Business Solutions 
+        <br> Ground Floor, Building 8,
+        <br> The Willows Office Park,
+        <br> Postnet Suite 49, <br>Private Bag X121,
+        <br>Halfway House,
+        <br> GP 1685
+        <br>  Midrand.
+        <br>
+      </center>
+    </div>
+        
+<div style="color:black;font-weight:bold;font-size:50px;letter-spacing:2px;position:relative;float:top;flex: 1;">
+    <a style="text-decoration: none; color: #2B67AC" href="mailto:support@hages.co.za">
+	<img class="mySli" src="/Portal/src/img/email.png" style="width:20;height:20px" >
+	</a>
+    <font size="4"color="#2B67AC">e-mail </font>
+	
+   
+
+	
+    <font size="4" color="#000000">|</font>&nbsp
+    <a style="text-decoration: none; color: #2B67AC" href="mailto:support@hages.co.za">
+	<img class="mySli" src="/Portal/src/img/linkedin.png" style="width:20;height:20px" ></a>
+	</a>
+	
+	<font size="4" color="#000000">|</font>
+	 <a style="text-decoration: none; color: #2B67AC" href="http://www.hages.co.za">
+		<img class="mySli" src="/Portal/src/img/website.png" style="width:20;height:20px" ></a>
+    <font size="4"color="#2B67AC">website</font><font size="3" color="#000000">|</font>
+    <a style="text-decoration: none; color: #2B67AC" href="https://maps.google.co.za/maps?q=hages+business+solutions+midrand&hl=en&ll=-25.964022,28.129404&spn=0.09646,0.123081&sll=-26.129857,27.904243&sspn=0.19388,0.246162&hq=hages+business+solutions&hnear=Midrand,+City+of+Johannesburg+Metropolitan+Municipality,+Gauteng&t=m&z=13&layer=c&cbll=-25.964022,28.129404&panoid=Xq4dorfqUOwpqq2tMeE_5w&cbp=12,119.54,,0,0">
+    <font size="4" color="#2B67AC">map</font></a>
+<div>
+
+
+</footer>
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display ="none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display ="block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+    
+</body>
+</html>
